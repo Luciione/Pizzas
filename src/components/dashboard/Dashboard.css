@@ -1,0 +1,80 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    background-color: #f7f7f7;
+    max-width: 1000px;
+    min-height: 100vh;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  input {
+    border: 1px solid #f7f7f7;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .form-control {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 400px;
+  }
+  
+  .btn {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .table td a {
+    color: #2a75b3;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .table td a:hover {
+    color: #1a5171;
+  }
+  

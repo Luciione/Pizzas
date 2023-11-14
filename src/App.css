@@ -1,0 +1,25 @@
+/* App.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Set the background color to black */
+    color: red; /* Set the text color to red */
+  }
+  
+  .taskbar {
+    background-color: #343a40;
+    padding: 10px;
+  }
+  
+  .taskbar a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .taskbar a:hover {
+    text-decoration: underline;
+  }
+  
